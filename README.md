@@ -1,3 +1,3 @@
 # UsingCV
 
-!Descripción de la image.png
+!Descripción de la image
