@@ -1,3 +1,3 @@
 # UsingCV
 
-!Descripción de la image
+![Imagen de ejemplo de funcionamiento](imagen.png)
