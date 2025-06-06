@@ -43,3 +43,22 @@ def count_fingers(landmarks, handedness_label):
             count += 1
     
     return count
+
+
+def dist_between_points(p1, p2):  
+  return ((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2) ** 0.5
+
+def comand_fingers(landmarks, handedness_label):
+    """
+    Comanda los dedos levantados según la mano.
+    
+    Devuelve un diccionario con el número de dedos levantados y su nombre.
+    """
+    count = count_fingers(landmarks, handedness_label)
+
+    # DAME UN SWITCH DE EJEMPO CON UN SOLO CASO 
+    # Aquí se puede usar un diccionario para mapear el número de dedos a un comando
+
+    match count:
+      case 1:
+        print("Elegiste la opción 1: ¡Hola, bienvenido al programa!")
